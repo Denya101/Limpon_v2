@@ -1,0 +1,241 @@
+@font-face {
+	font-family: 'Myriad Pro'; 
+	src: url(/font/Myriad_Pro_Regular.OTF); 
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #7581a1;
+}
+a {
+    text-decoration: none;
+}
+h1 {
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 90px;
+    color: #192b59;
+    width: 536px;
+    margin-bottom: 65px;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #192b59;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+span {
+    font-size: 14px;
+    font-weight: 800;
+    color: #1085e4;
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: 2.8px;
+}
+
+/* WRAP */
+.wrap {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.wrap-header {
+    display: flex;
+}
+.wrap-header>img {
+    margin-top: 49px;
+}
+
+
+/* HEADER */
+.header {
+    padding-top: 43px;
+    padding-bottom: 75px;
+    background-image: url(../img/header_bg.png);
+}
+.wrap-nav {
+    display: flex;
+    align-items: center;
+    margin-bottom: 26px;
+}
+.logo {
+    margin-right: 155px;
+}
+.nav {
+    display: flex;
+    font-size: 12px;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-transform: uppercase;
+}
+.nav-item {
+    color: #6e7ea9;
+    letter-spacing: 2.3px;
+}
+.nav>li {
+    padding-right: 39px;
+}
+.nav>li:last-child {
+    padding-right: 0;
+    letter-spacing: 2.3px;
+}
+.header-title {
+    margin-right: 78px;
+    padding-top: 217px;
+}
+.car {
+    margin-top: 20px;
+}
+
+/* BUTTON */
+.btn-primary {
+    font-size: 12px;
+    color: #fff;
+    background-color: #1085e4;
+    padding: 20.5px 38px;
+    border: 1px solid #1085e4;
+    border-radius: 100px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.btn-primary:hover {
+    background-color: transparent;
+    color: #1085e4;
+    border: 1px solid #1085e4;
+    transition: .15s;
+}
+.btn-secondary {
+    font-size: 12px;
+    color: #7e8bae;
+    background-color: #cbdbe8;
+    padding: 20.5px 38px;
+    border: 1px solid #cbdbe8;
+    margin-left: 15px;
+    border-radius: 100px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+.btn-secondary:hover {
+    background-color: transparent;
+    transition: .15s;
+}
+.btn-free {
+    font-family: 'Myriad Pro';
+    font-weight: 400;
+    color: #fff;
+    background-color: #1085e4;
+    padding: 21.5px 51px;
+    border-radius: 100px;
+}
+
+/* COMPANY */
+
+.page-company {
+    height: 274px;
+    background-image: url(../img/company_bg.jpg);
+    display: flex;
+    align-items: center;
+}
+.page-company ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    justify-content: space-between;
+    width: 1110px;
+}
+
+/* GRID */
+
+.grid {
+    display: grid;
+    gap: 30px;
+    grid-template-areas: "a b c"
+                         "d b c"
+                         "d f g"
+                         "e f g"
+                         "e h h";
+    max-width: 1110px;
+    margin: 0 auto; 
+}
+.grid-title {
+    grid-area: a;
+    
+}
+.grid-item-1 {
+    grid-area: b;
+}
+.grid-item-2 {
+    grid-area: c;
+}
+.grid-item-3 {
+    grid-area: d;
+}
+.grid-item-4 {
+    grid-area: e;
+}
+.grid-item-5 {
+    grid-area: f;
+}
+.grid-item-6 {
+    grid-area: g;
+
+}
+.grid-text {
+    grid-area: h;
+}
+.grid-h2 {
+    font-size: 40px;
+    color: #192b59;
+    font-weight: 700;
+}
+.grid-item {
+    text-align: center;
+    box-shadow: 0 0 5px #000000;
+    
+}
+.grid-item h3 {
+    font-size: 20px;
+    font-weight: 600;
+    color: #192b59;
+    margin-bottom: 18px;
+}
+.grid-icon {
+    background-repeat: no-repeat;
+    display: block;
+    margin: 0 auto 36px;
+}
+.grid-icon-1 {
+    background-image: url(../img/block_1_icon_2.png);
+    width: 73px;
+    height: 79px;
+}
+.grid-icon-2 {
+    background-image: url(../img/block_1_icon_3.png);
+    width: 89px;
+    height: 85px;
+}
+.grid-icon-3 {
+    background-image: url(../img/block_1_icon_1.png);
+    width: 79px;
+    height: 82px;
+}
+.grid-icon-4 {
+    background-image: url(../img/block_1_icon_4.png);
+    width: 103px;
+    height: 92px;
+}
+.grid-icon-5 {
+    background-image: url(../img/block_1_icon_5.png);
+    width: 85px;
+    height: 90px;
+}
+.grid-icon-6 {
+    background-image: url(../img/block_1_icon_6.png);
+    width: 100px;
+    height: 87px;
+}
